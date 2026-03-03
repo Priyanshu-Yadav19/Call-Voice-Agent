@@ -1,38 +1,47 @@
 📞 Call Voice Agent
 
 A real-time AI-powered Voice Agent built using Sarvam AI Streaming STT & TTS with LLM-based conversational intelligence.
-Designed for low-latency, multilingual, production-ready voice interactions.
+Designed for low-latency, multilingual(Hindi,Gujarati,English,Marathi), production-ready voice interactions.
 
 🚀 Overview
 
 Call Voice Agent enables real-time voice conversations by integrating:
 
-🎙 Streaming Speech-to-Text (STT) — Converts live speech to text using Sarvam AI
-🧠 LLM-based Conversation Management — Context-aware AI responses
-🔊 Streaming Text-to-Speech (TTS) — Generates natural voice replies
-⚡ Low-Latency Audio Processing — Real-time interaction support
-🎧 Voice Activity Detection (VAD) — Smart listening & barge-in handling
+◈ 🎙 Streaming Speech-to-Text (STT)
+Converts live speech to text using Sarvam AI
+
+◈ 🧠 LLM-based Conversation Management
+Generates context-aware AI responses
+
+◈ 🔊 Streaming Text-to-Speech (TTS)
+Produces natural, real-time voice replies
+
+◈ ⚡ Low-Latency Audio Processing
+Ensures seamless real-time interaction
+
+◈ 🎧 Voice Activity Detection (VAD)
+Smart listening with barge-in interruption handling
 
 ✨ Features
 
-◆ Real-time speech recognition
-◆ Context-aware conversational responses
-◆ Streaming voice output
-◆ Multilingual-ready architecture
-◆ Noise calibration support
-◆ Barge-in interruption handling
-◆ Automatic transcript logging
-◆ Modular & scalable code structure
+▣ Real-time speech recognition
+▣ Context-aware conversational responses
+▣ Streaming voice output
+▣ Multilingual-ready architecture
+▣ Noise calibration support
+▣ Barge-in interruption handling
+▣ Automatic transcript logging
+▣ Modular & scalable code structure
 
 🏗 Architecture Flow
 User Speech
-    ⇣
+   ⇣
 Sarvam Streaming STT
-    ⇣
+   ⇣
 LLM Conversation Manager
-    ⇣
+   ⇣
 Sarvam Streaming TTS
-    ⇣
+   ⇣
 Voice Response to User
 📁 Project Structure
 app/
@@ -84,7 +93,8 @@ TTS_PACE=1.0
 ▶️ Run Application
 python -m app.main
 
-Expected Output:
+Expected output:
+
 ✔ Audio device initialization
 ✔ Noise calibration
 ✔ Voice agent greeting
@@ -92,25 +102,17 @@ Expected Output:
 
 🎯 Use Cases
 
-▣ AI Call Automation
-▣ Customer Support Voice Bots
-▣ Loan / Banking Voice Assistants
-▣ Multilingual Voice Agents
-▣ Real-time AI Voice Interfaces
+⬢ AI Call Automation
+⬢ Customer Support Voice Bots
+⬢ Loan / Banking Voice Assistants
+⬢ Multilingual Voice Agents
+⬢ Real-time AI Voice Interfaces
 
 🔒 Security
 
-◉ API keys stored securely in .env
-◉ Sensitive files excluded via .gitignore
-◉ No credentials committed to repository
-
-📌 Future Improvements
-
-➜ Docker deployment
-➜ Cloud hosting integration
-➜ Analytics dashboard
-➜ Call recording system
-➜ Multi-agent routing
+◎ API keys stored securely in .env
+◎ Sensitive files excluded via .gitignore
+◎ No credentials committed to repository
 
 👨‍💻 Author
 
